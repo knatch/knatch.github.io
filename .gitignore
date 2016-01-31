@@ -3,3 +3,4 @@ bower_components/
 gulpfile.js
 package.json
 src/
+npm-debug.log
