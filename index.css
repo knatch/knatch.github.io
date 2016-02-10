@@ -18,7 +18,7 @@ div.header-bg {
     div.story-content #name {
       margin-bottom: 25px; }
     div.story-content p {
-      margin-bottom: 10px; }
+      margin-bottom: 20px; }
     div.story-content #natch-img {
       width: 100px;
       height: 100px;
@@ -29,14 +29,10 @@ div.header-bg {
 
 @media screen and (min-width: 768px) {
   div.story-content {
-    position: absolute;
     margin: auto;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
     text-align: center;
     color: #ffffff;
-    width: 600px; }
+    width: 550px; }
     div.story-content #name {
       font-size: 6em;
       font-weight: 500;
@@ -47,9 +43,15 @@ div.header-bg {
       letter-spacing: 1.5px;
       margin-bottom: 20px; }
     div.story-content #natch-img {
-      width: 150px;
-      height: 150px;
+      width: 135px;
+      height: 135px;
       margin: 0 auto; }
       div.story-content #natch-img img {
         height: 100%;
-        width: 100%; } }
+        width: 100%; }
+    div.story-content div.story-logo {
+      margin-top: 15px;
+      font-size: 16px; }
+      div.story-content div.story-logo a {
+        padding-left: 5px;
+        color: white; } }
